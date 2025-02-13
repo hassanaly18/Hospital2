@@ -11,7 +11,7 @@ public class Doctor extends Person{
     }
 
     public String toString(){
-        return "Speciality: " + speciality + "\nOffice Visit Fee: " + OfficeVisitFee + "\nNumber of Patients: " + noOfPatients;
+        return super.toString()+ "\nSpeciality: " + speciality + "\nOffice Visit Fee: " + OfficeVisitFee + "\nNumber of Patients: " + noOfPatients;
     }
 
     public double calculatePayCheck(){

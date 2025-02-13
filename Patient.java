@@ -14,6 +14,6 @@ public class Patient extends Person{
     }
 
     public String toString(){
-        return "Primary Care Physician: " + primaryCarePhysician + "\nLast Visited Doctor: " + lastVisitedDr;
+        return super.toString() +"\nPrimary Care Physician: " + primaryCarePhysician + "\nLast Visited Doctor: " + lastVisitedDr;
     }
 }
