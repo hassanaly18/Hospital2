@@ -2,13 +2,11 @@ public class Employee extends Person{
     
     public int monthlyWorkHrs;
     public double salary;
-    public double hourlyRate;
 
-    public Employee(String firstName, String lastName, String address, int monthlyWorkHrs, double salary, double hourlyRate){
+    public Employee(String firstName, String lastName, String address, int monthlyWorkHrs, double salary){
         super(firstName, lastName, address);
         this.monthlyWorkHrs = monthlyWorkHrs;
         this.salary = salary;
-        this.hourlyRate = hourlyRate;
     }
 
     public double calculatePayCheck(){
