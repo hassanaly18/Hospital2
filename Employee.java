@@ -25,7 +25,7 @@ public class Employee extends Person{
     }
 
     public String toString(){
-        return super.toString() + ", Salary: " + salary + ", Hours Worked: " + monthlyWorkHrs;
+        return super.toString() + ",Basic Salary: $" + salary + ", Hours Worked: " + monthlyWorkHrs;
     }
 
 }
